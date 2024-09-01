@@ -1,0 +1,65 @@
+body{
+    font-family: DigitalCyrillic1;
+    background-color: black;
+    color: rgb(153, 255, 0);
+    user-select: none;
+    overflow: hidden;
+}
+.nameGame{
+    text-align: center;
+}
+.backPlan{
+    margin-top: 100px;
+    box-shadow: inset 0px 0px 300px 0 rgb(0, 0, 0);
+    height: 900px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.tryCorrect, .tryCount{
+    margin: 0;
+    font-size: 30px;
+}
+.tryCount{
+    display: grid;
+}
+.greenWindow{
+    overflow: hidden;
+    padding: 3px;
+    background-color: black;
+    border: 2px solid rgb(153, 255, 0);
+    width: 940px;
+    height: 745px;
+}
+.greenWindowRight{
+    padding: 3px;
+    background-color: black;
+    border: 2px solid rgb(153, 255, 0);
+    width: 20%;
+    height: 745px;
+}
+.greenWindowRight .nameGame{
+    filter: drop-shadow(4px 4px 1px rgba(153, 255, 0, 0.5));
+    font-size: 50px;
+    margin: 0;
+}
+a{
+    margin-inline: 3px;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(153, 255, 0);
+}
+a:hover{
+    color: black;
+    background-color: rgb(153, 255, 0);
+}
+.numberOfHP{
+    margin-inline: 5px;
+    height: 25px;
+    width: 14px;
+    background-color: rgb(153, 255, 0);
+}
+.hide{
+    display: none;
+}
